@@ -16,7 +16,7 @@ var options = {
     cors: false
 };
 
-const usage = "usage: node index.js [options]\n" +
+const usage = "usage: iot-rest-api-server [options]\n" +
 "options: \n" +
 "  -h, --help \n" +
 "  -v, --verbose \n" +
