@@ -5,7 +5,7 @@
   "repository": "https://github.com/01org/iot-rest-api-server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node bin/iot-rest-api-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sakari Poussa",
