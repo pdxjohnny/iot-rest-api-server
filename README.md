@@ -9,26 +9,38 @@ progress and subject to changes.
 
 ![Overview](img/iot-rest-api-server.png)
 
-## Install
+## Global Install
 
 ```
-npm install node-gyp -g
 npm install -g iot-rest-api-server
 ```
 
+Run with: `$ iot-rest-api-server`.
+
+## Local Install
+
+```
+npm install iot-rest-api-server
+```
+
+> Must have a `package.json` file in your current directory. Also you may want
+> to add the `--save` flag to `npm install` so that `package.json` knows your
+> project requires `iot-rest-api-server`.
+
+Run with: `$ ./node_modules/iot-rest-api-server/bin/iot-rest-api-server.js`.
 
 ## Usage
 
 Start the API server
 
-`iot-rest-api-server`
+`$ iot-rest-api-server`
 
 ### Command Line Options
 
 The command line options
 
 ```
-iot-rest-api-server -h
+$ iot-rest-api-server -h
 
 Options
 
@@ -66,6 +78,14 @@ certificate authority and corresponding private key and place those to the
 
 - `/api/system`
 - `/api/oic`
+
+# Hacking
+
+## Install Dev Dependencies
+
+```
+npm install node-gyp -g
+```
 
 ## API documentation
 
